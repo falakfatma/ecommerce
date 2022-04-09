@@ -1,0 +1,57 @@
+Main Index  
+Products  
+Products Description  
+Explore 
+Profile  
+My Wishlist 
+My Orders  
+Cart  
+Notification
+Track Order
+About Platform
+Service area locator section
+Contact Us  
+T&C
+Privacy Policy
+Return Policy
+Offers 
+Signup  
+Sign In  
+Checkout  
+404 Page Not Found
+
+Pages description:
+Main Index Page Consist Of:
+Navbar
+Banners
+Categories of products eg. Men, Women, Kids, Accessories.
+Most purchased products
+New Arrivals
+Offers carousel
+Footer
+Whatsapp Logo 
+Products will consist of:
+Product images with wishlist, cart, title and price option.
+Left side Filters
+Product description will consist of particular product images, gifs, title, description, rating, FAQ, additional infos and particular area pin delivery section.
+Explore page:  Products in their categories with additional categories such as Most purchased, Recent added and others.
+Profile:
+User personal info
+Coins
+Addresses
+My Wishlist consists of the product the user liked.
+My Orders consists of the orders user’s purchased.
+Cart 
+Notification- All the notifications regarding sales and purchase.
+Track Order 
+About Platform - The objective, the Founders, Contacts. 
+Service area locator section will consist of the area the platform serves. Users can check via Pin Code.
+Contact Us- The mail, the helpline num, physical address, social handles etc.
+T&C
+Privacy Policy
+Return Policy
+Offers 
+Signup 
+Sign In
+Checkout
+404 Page Not Found
