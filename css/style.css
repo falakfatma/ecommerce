@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+:root {
+    --mainCol: #d83335;
+}
+.nav-link{
+    font-size: 1.15rem;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: var(--mainCol);
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.1);
+    padding: 12px 14px; /* top | right | bottom | left */
+    /* z-index: 1; */
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.nav-heading{
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.nav-drop-list{
+    font-weight:300 ;
+    text-transform: capitalize;
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.5rem;
+}
+.nav-drop-list:hover{
+    color: var(--mainCol);
+}
