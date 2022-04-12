@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+}
+.side-navbar{
+    width: 25rem;
+    height: 100%;
+    /* background: rgb(150, 73, 73); */
+    display: block;
+}
+.navbar button{
+    float: right;
+    /* margin-top: 20px; */
+    padding: 1rem 1.4rem;
+    font-size: x-large;
+    width: auto;
+    border: none;
+    color: #ccc;
+    background: #000;
+}
+.navbar-list{
+   padding: 3rem 0px;
+   /* overflow-y: scroll; */
+}
+.navbar-list ul{
+    padding-left: 0px;
+}
+
+.navbar-list ul li{
+    padding: 20px;
+    list-style: none;
+    font-size: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 1rem;
+	text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+}
+.navbar-list ul li:hover{
+    color: red;
+}
+.navbar h1{
+    font-size: 2rem;
+    padding-left: 1.3rem;
+    padding-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: red;
+
+}
+.parent>p{
+    border-radius: 3px;
+    color: #555;
+    cursor: default;
+    display: inline-block;
+    float: right;
+    font-size: 20px;
+    font-weight: 700;
+    height: 25px;
+    line-height: 25px;
+    margin: 0 10px -20px 0;
+    padding: 0;
+    position: relative;
+    text-align: right;
+    width: 95%;
+    z-index: 1;
+}
