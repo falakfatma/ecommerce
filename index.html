@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>efashionbazaar</title>
     <link rel="stylesheet" href="css/style.css">
+    <!-- Font awesome css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Font CSS  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -13,11 +16,61 @@
 <body>
     <!-- First Navbar Begins  -->
     <nav class="first-nav">
-        <p class="first-nav-heading ml-6">efashionbazaar</p>
+        <p class="first-nav-heading ml-6">
+            <span id="openSidebarTrigger" class="sidebar-icon">
+                <i class="fa-solid fa-align-left"></i>
+            </span>
+            efashionbazaar</p>
         <p class="search-container">  
             <input type="text" class="search-bar" placeholder="Search for products">
         </p>
     </nav>
+    <!-- Sidenav Begins  -->
+        <nav id="sidebar" class="side-navbar">
+            <div class="side-navbar-heading">
+                <p class="side-navbar-title">
+                    efashionbazaar
+                </p>
+                <span id="closeBtnId" class="cross">&times;</span>
+            </div>
+            <div class="side-navbar-list-container">
+                <ul>
+                    <li class="side-navbar-list"> <a href="">men</a> </li>
+                    <li class="side-navbar-list"> <a href="">women</a> </li>
+                    <li class="side-navbar-list"> <a href="">kids</a> </li>
+                    <li class="side-navbar-list">
+                        <a href="" class="">Saree</a>
+                        <span id="sideNavListPlusTrigger" class="side-navbar-list-plus">+</span>
+                        <ul class="side-navbar-list-ul">
+                            <li class="side-navbar-list">bollywood saree</li>
+                            <li class="side-navbar-list">lehga saree</li>
+                            <li class="side-navbar-list">half n half saree</li>
+                            <li class="side-navbar-list">choli saree</li>
+                            <li class="side-navbar-list">view all saree</li>
+                        </ul>
+                    </li>
+                    <li class="side-navbar-list">
+                        <a href="" class="opener-btn">Indowestern
+                        </a>
+                        <span class="side-navbar-list-plus">+</span>
+                        <ul class="side-navbar-list-ul">
+                            <li class="side-navbar-list">bollywood saree</li>
+                            <li class="side-navbar-list">lehga saree</li>
+                            <li class="side-navbar-list">half n half saree</li>
+                            <li class="side-navbar-list">choli saree</li>
+                            <li class="side-navbar-list">view all saree</li>
+                        </ul>
+                    </li>
+                    <li class="side-navbar-list"> <a href="">accossires</a> </li>
+                    <li class="side-navbar-list"> <a href="">our company</a> </li>
+                    <li class="side-navbar-list">my orders</li>
+                    <li class="side-navbar-list">my cart</li>
+                    <li class="side-navbar-list">my wishlist</li>
+                </ul>
+            </div>
+        </nav>
+   
+    <!-- Sidenav Ends  -->
     <!-- First Navbar Ends  -->
     <!-- Second Navbar Begins  -->
     <nav class="second-nav">
@@ -187,5 +240,6 @@
     <!-- Carousel Begins  -->
     
     <!-- Carousel Ends  -->
+    <script src="js/sidebar.js"></script>
 </body>
 </html>
